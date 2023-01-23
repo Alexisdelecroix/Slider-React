@@ -5,7 +5,7 @@ import rightArrow from "./icons/right-arrow.svg";
 
 export default function BtnSlider({ direction, moveSlide }) {
  
-  return (
+  return ( 
     <button
       onClick={moveSlide}
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}>
