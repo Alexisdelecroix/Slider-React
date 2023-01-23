@@ -107,6 +107,7 @@ switch(event.code)
     }
   };
 
+
   const clickDot = (slideId, id) => {
     slideId = id;
     setSlideIndex(slideId);
